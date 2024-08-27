@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baron&family=Roboto&family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2528897953.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Web Dev</title>
+</head>
+<body>
+    <div id=home class="homepage-background">
+        <!--NAVIGATION-->
+        <header>
+            <nav>
+                <div class="hamburger" onclick="toggleNav()">☰</div>
+                <ul id="nav-links">
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="web">WEB <br> <span class='dev'>DEVELOPMENT</span></h1>
+        <button class="btn" onclick="window.open('https://careerfoundry.com/en/blog/web-development/what-is-web-development/', '_blank');">Learn More</button>
+        <img src="images/home_programmer.png" alt="homepage" class="programmer">
+
+        <div class="about-background" id="about">
+            <h1 class="whatis fade-slide">What is Web<br> Development</h1>
+            <p class="definition fade-slide">Web development is a multifaceted field dedicated to creating, designing, <br> and maintaining websites and web applications. It represents a blend of <br>creativity and technical expertise, aimed at building functional and <br> aesthetically pleasing digital platforms. To grasp the essence of web <br>development, it's essential to explore its various components and processes.</p>
+            <p class="definition2 hidden-content">Web development involves various aspects such as web design, web programming,  and database management. It encompasses front-end development, focusing on user interface and user experience, as well as back-end development, dealing with server-side logic and database integration.</p>
+            <img src="images/thinking.png" alt="homepage" class="think">
+            <button class="rm_btn fade-slide" onclick="toggleReadMore()">Read More</button>
+        </div>
+
+        <div class="importance-background">
+            <img src="images/programming.png" alt="homepage" class="program">
+            <div class="gray">
+                <h1>Why Web Development?</h1>
+                <p>• Web development enables businesses and individuals to establish an online presence, making information, products, and services accessible to a global audience 24/7. This is especially important in today's digital age, where most consumers search online before making decisions.</p> 
+                <p>• Websites provide a platform for communication between businesses and their customers. Features like contact forms, chatbots, and social media integrations enhance interaction, allowing businesses to engage with their audience effectively.</p>
+                <p>• Web development allows for the integration of analytics tools, enabling businesses to collect data on user behavior, preferences, and trends. This data is valuable for making informed decisions, improving products or services, and personalizing user experiences.</p>
+            </div>
+        </div>
+
+        <div class="career">
+            <h1 class="c fade-slide">CAREER</h1>
+            <div class="job-container fade-slide">
+                <div class="job1 fade-slide">
+                    <img src="images/uiux.png" alt="homepage" class="design">
+                    <h3>UI / UX</h3>
+                </div>
+                <div class="job2 fade-slide">
+                    <img src="images/presenting.png" alt="homepage" class="present">
+                    <h3>Back End</h3>
+                </div>
+            </div>
+            <div class="job-container fade-slide">
+                <div class="job3 fade-slide">
+                    <img src="images/frontend.png" alt="homepage" class="front">
+                    <h3>Front End</h3>
+                </div>
+                <div class="job4 fade-slide">
+                    <img src="images/discussing.png" alt="homepage" class="discuss">
+                    <h3>Full Stack</h3>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-section about">
+                        <h3> 2024 Your Company. All rights reserved.</h3>
+                    </div>
+        
+                    <div class="terms">
+                        <ul>
+                            <li>Terms of Use</li>
+                            <li>Privacy Policy</li>
+                            <li>Cookie Policy</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        
+    
+        <script src="act.js">
+            
+        </script>
+    </div>
+</body>
+</html>
